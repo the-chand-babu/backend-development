@@ -1,0 +1,40 @@
+{
+    "student": [
+        {
+            "id": 5,
+            "name": "sameer",
+            "school": "xyz",
+            "rollNo": 10
+        },
+        {
+            "id": 2,
+            "name": "subham kumar",
+            "school": "xyz",
+            "rollNo": 2
+        },
+        {
+            "id": 3,
+            "name": "saifali",
+            "school": "xyz",
+            "rollNo": 3
+        },
+        {
+            "id": 4,
+            "name": "manal",
+            "school": "xyz",
+            "rollNo": 4
+        }
+    ],
+    "teacher": [
+        {
+            "id": 1,
+            "name": "nihal",
+            "school": "xyz"
+        },
+        {
+            "id": 2,
+            "name": "sanket",
+            "school": "xyz"
+        }
+    ]
+}
