@@ -89,3 +89,15 @@ if(err){
 if(arument=='rm'){
     deletefile(para1);
 }
+
+
+
+
+const obj ={
+    'name':"chand babu",
+    "age":"22"
+}
+
+console.log(obj);// it simply print data
+console.dir(obj);// it will print additional information
+// about my data in dont notation
