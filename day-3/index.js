@@ -91,8 +91,6 @@ if(arument=='rm'){
 }
 
 
-
-
 const obj ={
     'name':"chand babu",
     "age":"22"

@@ -2,6 +2,7 @@ const expres = require('express');
 const fs = require('fs')
 const app = expres();
 app.use(expres.json())
+
 app.get('/',(req,res)=>{
     res.send("hello word");
 });

@@ -1,9 +1,10 @@
 const express = require("express");
 const {student} = require('./router/student');
 const {teacher} =require('./router/teacher');
-
+const cors = require('cors');
 
 const app = express();
+app.use(cors())
 app.use(express.json());
 const watchMan=(req,res,next)=>{
     console.log(req.url);
@@ -23,3 +24,5 @@ app.use('/teacher',teacher);
 app.listen(3001,(err)=>{
     console.log("port is lisning");
 })
+
+console.log("wroking")
